@@ -12,12 +12,13 @@ export default async function fetchData(): Promise<THighlightSlides[]> {
 
   // fetch github repo db by using jsdelivr cdn
   const res = await fetch(
-    'https://cdn.jsdelivr.net/gh/ChunTyng/jsDelivr-db/db.json',
+    'https://cdn.jsdelivr.net/gh/ChunTyng/jsDelivr-db@main/db.json', //add @main to confirm fetching the latest version
   );
   if (!res.ok) {
     throw new Error('Failed to fetch highlights');
   } else {
     const data = await res.json();
+    console.log(data.highlightSlides);
     return data.highlightSlides;
   }
 }

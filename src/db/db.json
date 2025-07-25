@@ -13,7 +13,7 @@
     {
       "id": 2,
       "textLists": ["Titanium.", "So strong. So light. So Pro."],
-      "video": "assets/videos/hightlight-sec.mp4",
+      "video": "assets/videos/highlight-sec.mp4",
       "videoDuration": 5
     },
     {
@@ -23,13 +23,13 @@
         "longest optical zoom in",
         "iPhone ever. Far out."
       ],
-      "video": "assets/videos/hightlight-third.mp4",
+      "video": "assets/videos/highlight-third.mp4",
       "videoDuration": 2
     },
     {
       "id": 4,
       "textLists": ["All-new Action button.", "What will yours do?."],
-      "video": "assets/videos/hightlight-fourth.mp4",
+      "video": "assets/videos/highlight-fourth.mp4",
       "videoDuration": 3.63
     }
   ]
