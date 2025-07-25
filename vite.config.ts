@@ -3,6 +3,6 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/3d-iphone-website/',
+  base: '/3d-Iphone-website/',
   plugins: [tailwindcss()],
 });
